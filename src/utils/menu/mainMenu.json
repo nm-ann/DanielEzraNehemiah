@@ -1,22 +1,28 @@
 [
-    {
-        "title": "chapter",
-        "iconName": "cog",
-        "nextScreen": "ChapterMenu"
-    },
-    {
-        "title": "chapter",
-        "iconName": "cog",
-        "nextScreen": "SectionMenu"
-    },
-    {
-        "title": "playlist",
-        "iconName": "music",
-        "nextScreen": "SectionMenu"
-    },
-    {
-        "title": "settings",
-        "iconName": "cog",
-        "nextScreen": "SettingsMenu"
-    }
+       {
+       "title": "daniel", 
+       "iconName": "candle", 
+       "nextScreen": "ChapterMenu"
+       },
+       {
+       "title": "ezra",
+       "iconName": "weather-sunset-up",
+       "nextScreen": "ChapterMenu"
+       },
+       {
+       "title": "nehemiah",
+       "iconName": "campfire",
+       "nextScreen": "ChapterMenu"
+       },
+       {
+"title": "playlist", 
+"iconName": "playlist-music", 
+"nextScreen": "SectionMenu"
+       },
+       {
+       "title": "settings",
+       "iconName": "cog", 
+"nextScreen": "SettingsMenu"
+       }
 ]
+

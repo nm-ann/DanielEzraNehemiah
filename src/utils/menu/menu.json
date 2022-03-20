@@ -1,18 +1,65 @@
 {
-    "section":
-        {
-            "title": "title",
-            "chapters": [
-                {
-                    "collection": "collection",
-                    "title": "Chapter",
-                    "chapterNum": 1
-                },
-                {
-                    "collection": "collection",
-                    "title": "Chapter",
-                    "chapterNum": 1
-                }
-            ]
-        }
+       "daniel": 
+       {
+       "title": "Daniel", 
+       "firstChapter": 0, 
+       "chapters": 
+       [
+       {"collection": "daniel", "title": "Chapter 1", "chapterNum": 1},
+       {"collection": "daniel", "title": "Chapter 2", "chapterNum": 2},
+       {"collection": "daniel", "title": "Chapter 3", "chapterNum": 3},
+       {"collection": "daniel", "title": "Chapter 4", "chapterNum": 4},
+       {"collection": "daniel", "title": "Chapter 5", "chapterNum": 5},
+       {"collection": "daniel", "title": "Chapter 6", "chapterNum": 6},
+       {"collection": "daniel", "title": "Chapter 7", "chapterNum": 7},
+       {"collection": "daniel", "title": "Chapter 8", "chapterNum": 8},
+       {"collection": "daniel", "title": "Chapter 9", "chapterNum": 9},
+       {"collection": "daniel", "title": "Chapter 10", "chapterNum": 10},
+       {"collection": "daniel", "title": "Chapter 11", "chapterNum": 11},
+       {"collection": "daniel", "title": "Chapter 12", "chapterNum": 12}
+       ]
+},
+
+       "ezra": 
+       {
+       "title": "Ezra", 
+       "firstChapter": 0, 
+       "chapters": 
+       [
+       {"collection": "ezra", "title": "Chapter 1", "chapterNum": 1},
+       {"collection": "ezra", "title": "Chapter 2", "chapterNum": 2},
+       {"collection": "ezra", "title": "Chapter 3", "chapterNum": 3},
+       {"collection": "ezra", "title": "Chapter 4", "chapterNum": 4},
+       {"collection": "ezra", "title": "Chapter 5", "chapterNum": 5},
+       {"collection": "ezra", "title": "Chapter 6", "chapterNum": 6},
+       {"collection": "ezra", "title": "Chapter 7", "chapterNum": 7},
+       {"collection": "ezra", "title": "Chapter 8", "chapterNum": 8},
+       {"collection": "ezra", "title": "Chapter 9", "chapterNum": 9},
+       {"collection": "ezra", "title": "Chapter 10", "chapterNum": 10}
+       
+       ]
+},
+
+       "nehemiah": 
+       {
+"title": "Nehemiah", 
+"chapters": 
+[
+       {"collection": "nehemiah", "title": "Chapter 1", "chapterNum": 1},
+       {"collection": "nehemiah", "title": "Chapter 2", "chapterNum": 2},
+       {"collection": "nehemiah", "title": "Chapter 3", "chapterNum": 3},
+       {"collection": "nehemiah", "title": "Chapter 4", "chapterNum": 4},
+       {"collection": "nehemiah", "title": "Chapter 5", "chapterNum": 5},
+       {"collection": "nehemiah", "title": "Chapter 6", "chapterNum": 6},
+       {"collection": "nehemiah", "title": "Chapter 7", "chapterNum": 7},
+       {"collection": "nehemiah", "title": "Chapter 8", "chapterNum": 8},
+       {"collection": "nehemiah", "title": "Chapter 9", "chapterNum": 9},
+       {"collection": "nehemiah", "title": "Chapter 10", "chapterNum": 10},
+       {"collection": "nehemiah", "title": "Chapter 11", "chapterNum": 11},
+       {"collection": "nehemiah", "title": "Chapter 12", "chapterNum": 12},
+       {"collection": "nehemiah", "title": "Chapter 13", "chapterNum": 13}
+       
+       ]
+       }
 }
+
