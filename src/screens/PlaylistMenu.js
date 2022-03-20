@@ -188,6 +188,7 @@ class PlaylistMenu extends React.Component {
             <FontAwesomeButton
               iconName="edit"
               iconSize={20}
+              iconStyle={{color: colors.title}}
               solid={this.props.route.params.editMode}
               onPress={() => {
                 const newValue = !this.props.route.params.editMode;
@@ -202,6 +203,7 @@ class PlaylistMenu extends React.Component {
             <FontAwesomeButton
               iconName="trash-alt"
               iconSize={20}
+              iconStyle={{ color: colors.title }}
               onPress={() => this.openModal()}
             />
           </View>
