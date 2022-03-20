@@ -1,22 +1,22 @@
 [
        {
               "title": "daniel",
-              "iconName": "cog",
+              "iconName": "wolf-pack-battalion",
               "nextScreen": "ChapterMenu"
        },
        {
               "title": "ezra",
-              "iconName": "cog",
+              "iconName": "feather",
               "nextScreen": "ChapterMenu"
        },
        {
               "title": "nehemiah",
-              "iconName": "cog",
+              "iconName": "crown",
               "nextScreen": "ChapterMenu"
        },
        {
               "title": "playlist",
-              "iconName": "cog",
+              "iconName": "music",
               "nextScreen": "SectionMenu"
        },
        {

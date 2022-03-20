@@ -279,7 +279,7 @@ class Chapter extends React.Component {
           <FontAwesomeButton
             iconName="plus"
             iconSize={20}
-            iconStyle={{ paddingRight: 20 }}
+            iconStyle={{ paddingRight: 20, color: colors.title }}
             onPress={async () => {
               if (!this.state.isPaused) {
                 this.pauseButton();
