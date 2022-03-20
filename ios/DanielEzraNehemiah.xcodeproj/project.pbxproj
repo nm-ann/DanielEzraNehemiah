@@ -11,27 +11,116 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		3523097FBE15458380D194AD /* StamAshkenazCLM.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A38EBB8C4EA34EF0AC6E2BE9 /* StamAshkenazCLM.ttf */; };
+		4DE2F71AC85B4C2E89E1E431 /* Ezra SIL SR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27A6C3CD2C4740C0A878D3BE /* Ezra SIL SR.ttf */; };
+		660C349E27E7CC9B0061F9C5 /* daniel_8.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C347B27E7CC9A0061F9C5 /* daniel_8.json */; };
+		660C349F27E7CC9B0061F9C5 /* daniel_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C347C27E7CC9A0061F9C5 /* daniel_3.json */; };
+		660C34A027E7CC9B0061F9C5 /* ezra_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C347D27E7CC9A0061F9C5 /* ezra_3.json */; };
+		660C34A127E7CC9B0061F9C5 /* daniel_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C347E27E7CC9A0061F9C5 /* daniel_1.json */; };
+		660C34A227E7CC9B0061F9C5 /* daniel_10.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C347F27E7CC9A0061F9C5 /* daniel_10.json */; };
+		660C34A327E7CC9B0061F9C5 /* daniel_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C348027E7CC9A0061F9C5 /* daniel_4.json */; };
+		660C34A427E7CC9B0061F9C5 /* nehemiah_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C348127E7CC9A0061F9C5 /* nehemiah_4.json */; };
+		660C34A527E7CC9B0061F9C5 /* ezra_8.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C348227E7CC9B0061F9C5 /* ezra_8.json */; };
+		660C34A627E7CC9B0061F9C5 /* nehemiah_12.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C348327E7CC9B0061F9C5 /* nehemiah_12.json */; };
+		660C34A727E7CC9B0061F9C5 /* daniel_9.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C348427E7CC9B0061F9C5 /* daniel_9.json */; };
+		660C34A827E7CC9B0061F9C5 /* daniel_12.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C348527E7CC9B0061F9C5 /* daniel_12.json */; };
+		660C34A927E7CC9B0061F9C5 /* ezra_9.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C348627E7CC9B0061F9C5 /* ezra_9.json */; };
+		660C34AA27E7CC9B0061F9C5 /* nehemiah_5.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C348727E7CC9B0061F9C5 /* nehemiah_5.json */; };
+		660C34AB27E7CC9B0061F9C5 /* ezra_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C348827E7CC9B0061F9C5 /* ezra_4.json */; };
+		660C34AC27E7CC9B0061F9C5 /* nehemiah_11.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C348927E7CC9B0061F9C5 /* nehemiah_11.json */; };
+		660C34AD27E7CC9B0061F9C5 /* ezra_10.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C348A27E7CC9B0061F9C5 /* ezra_10.json */; };
+		660C34AE27E7CC9B0061F9C5 /* ezra_6.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C348B27E7CC9B0061F9C5 /* ezra_6.json */; };
+		660C34AF27E7CC9B0061F9C5 /* nehemiah_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C348C27E7CC9B0061F9C5 /* nehemiah_3.json */; };
+		660C34B027E7CC9B0061F9C5 /* nehemiah_13.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C348D27E7CC9B0061F9C5 /* nehemiah_13.json */; };
+		660C34B127E7CC9B0061F9C5 /* daniel_11.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C348E27E7CC9B0061F9C5 /* daniel_11.json */; };
+		660C34B227E7CC9B0061F9C5 /* nehemiah_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C348F27E7CC9B0061F9C5 /* nehemiah_1.json */; };
+		660C34B327E7CC9B0061F9C5 /* nehemiah_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C349027E7CC9B0061F9C5 /* nehemiah_2.json */; };
+		660C34B427E7CC9B0061F9C5 /* nehemiah_6.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C349127E7CC9B0061F9C5 /* nehemiah_6.json */; };
+		660C34B527E7CC9B0061F9C5 /* nehemiah_7.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C349227E7CC9B0061F9C5 /* nehemiah_7.json */; };
+		660C34B627E7CC9C0061F9C5 /* nehemiah_9.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C349327E7CC9B0061F9C5 /* nehemiah_9.json */; };
+		660C34B727E7CC9C0061F9C5 /* ezra_5.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C349427E7CC9B0061F9C5 /* ezra_5.json */; };
+		660C34B827E7CC9C0061F9C5 /* daniel_6.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C349527E7CC9B0061F9C5 /* daniel_6.json */; };
+		660C34B927E7CC9C0061F9C5 /* ezra_7.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C349627E7CC9B0061F9C5 /* ezra_7.json */; };
+		660C34BA27E7CC9C0061F9C5 /* ezra_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C349727E7CC9B0061F9C5 /* ezra_1.json */; };
+		660C34BB27E7CC9C0061F9C5 /* ezra_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C349827E7CC9B0061F9C5 /* ezra_2.json */; };
+		660C34BC27E7CC9C0061F9C5 /* daniel_7.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C349927E7CC9B0061F9C5 /* daniel_7.json */; };
+		660C34BD27E7CC9C0061F9C5 /* nehemiah_8.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C349A27E7CC9B0061F9C5 /* nehemiah_8.json */; };
+		660C34BE27E7CC9C0061F9C5 /* daniel_5.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C349B27E7CC9B0061F9C5 /* daniel_5.json */; };
+		660C34BF27E7CC9C0061F9C5 /* nehemiah_10.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C349C27E7CC9B0061F9C5 /* nehemiah_10.json */; };
+		660C34C027E7CC9C0061F9C5 /* daniel_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 660C349D27E7CC9B0061F9C5 /* daniel_2.json */; };
+		660C350927E7CCA80061F9C5 /* nehemiah_5_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34C327E7CCA50061F9C5 /* nehemiah_5_seph.mp3 */; };
+		660C350A27E7CCA80061F9C5 /* ezra_2_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34C427E7CCA50061F9C5 /* ezra_2_ashk.mp3 */; };
+		660C350B27E7CCA80061F9C5 /* ezra_1_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34C527E7CCA50061F9C5 /* ezra_1_ashk.mp3 */; };
+		660C350C27E7CCA80061F9C5 /* ezra_2_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34C627E7CCA50061F9C5 /* ezra_2_seph.mp3 */; };
+		660C350D27E7CCA80061F9C5 /* daniel_5_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34C727E7CCA50061F9C5 /* daniel_5_ashk.mp3 */; };
+		660C350E27E7CCA80061F9C5 /* ezra_10_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34C827E7CCA50061F9C5 /* ezra_10_seph.mp3 */; };
+		660C350F27E7CCA80061F9C5 /* ezra_10_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34C927E7CCA50061F9C5 /* ezra_10_ashk.mp3 */; };
+		660C351027E7CCA80061F9C5 /* daniel_6_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34CA27E7CCA50061F9C5 /* daniel_6_seph.mp3 */; };
+		660C351127E7CCA80061F9C5 /* ezra_5_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34CB27E7CCA50061F9C5 /* ezra_5_ashk.mp3 */; };
+		660C351227E7CCA80061F9C5 /* nehemiah_1_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34CC27E7CCA50061F9C5 /* nehemiah_1_ashk.mp3 */; };
+		660C351327E7CCA80061F9C5 /* daniel_3_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34CD27E7CCA50061F9C5 /* daniel_3_ashk.mp3 */; };
+		660C351427E7CCA80061F9C5 /* nehemiah_2_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34CE27E7CCA50061F9C5 /* nehemiah_2_seph.mp3 */; };
+		660C351527E7CCA80061F9C5 /* daniel_11_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34CF27E7CCA50061F9C5 /* daniel_11_seph.mp3 */; };
+		660C351627E7CCA80061F9C5 /* nehemiah_5_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34D027E7CCA50061F9C5 /* nehemiah_5_ashk.mp3 */; };
+		660C351727E7CCA80061F9C5 /* daniel_6_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34D127E7CCA50061F9C5 /* daniel_6_ashk.mp3 */; };
+		660C351827E7CCA80061F9C5 /* daniel_5_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34D227E7CCA60061F9C5 /* daniel_5_seph.mp3 */; };
+		660C351927E7CCA80061F9C5 /* nehemiah_6_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34D327E7CCA60061F9C5 /* nehemiah_6_seph.mp3 */; };
+		660C351A27E7CCA80061F9C5 /* ezra_5_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34D427E7CCA60061F9C5 /* ezra_5_seph.mp3 */; };
+		660C351B27E7CCA80061F9C5 /* nehemiah_4_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34D527E7CCA60061F9C5 /* nehemiah_4_ashk.mp3 */; };
+		660C351C27E7CCA80061F9C5 /* nehemiah_8_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34D627E7CCA60061F9C5 /* nehemiah_8_seph.mp3 */; };
+		660C351D27E7CCA80061F9C5 /* nehemiah_13_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34D727E7CCA60061F9C5 /* nehemiah_13_ashk.mp3 */; };
+		660C351E27E7CCA80061F9C5 /* daniel_7_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34D827E7CCA60061F9C5 /* daniel_7_seph.mp3 */; };
+		660C351F27E7CCA80061F9C5 /* daniel_10_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34D927E7CCA60061F9C5 /* daniel_10_seph.mp3 */; };
+		660C352027E7CCA80061F9C5 /* ezra_4_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34DA27E7CCA60061F9C5 /* ezra_4_seph.mp3 */; };
+		660C352127E7CCA80061F9C5 /* daniel_11_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34DB27E7CCA60061F9C5 /* daniel_11_ashk.mp3 */; };
+		660C352227E7CCA80061F9C5 /* daniel_4_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34DC27E7CCA60061F9C5 /* daniel_4_seph.mp3 */; };
+		660C352327E7CCA80061F9C5 /* nehemiah_4_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34DD27E7CCA60061F9C5 /* nehemiah_4_seph.mp3 */; };
+		660C352427E7CCA80061F9C5 /* nehemiah_9_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34DE27E7CCA60061F9C5 /* nehemiah_9_ashk.mp3 */; };
+		660C352527E7CCA80061F9C5 /* nehemiah_11_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34DF27E7CCA60061F9C5 /* nehemiah_11_seph.mp3 */; };
+		660C352627E7CCA80061F9C5 /* daniel_8_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34E027E7CCA60061F9C5 /* daniel_8_ashk.mp3 */; };
+		660C352727E7CCA80061F9C5 /* daniel_9_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34E127E7CCA60061F9C5 /* daniel_9_seph.mp3 */; };
+		660C352827E7CCA80061F9C5 /* nehemiah_7_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34E227E7CCA60061F9C5 /* nehemiah_7_ashk.mp3 */; };
+		660C352927E7CCA80061F9C5 /* daniel_8_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34E327E7CCA60061F9C5 /* daniel_8_seph.mp3 */; };
+		660C352A27E7CCA80061F9C5 /* daniel_1_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34E427E7CCA60061F9C5 /* daniel_1_ashk.mp3 */; };
+		660C352B27E7CCA80061F9C5 /* ezra_4_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34E527E7CCA60061F9C5 /* ezra_4_ashk.mp3 */; };
+		660C352C27E7CCA80061F9C5 /* daniel_7_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34E627E7CCA60061F9C5 /* daniel_7_ashk.mp3 */; };
+		660C352D27E7CCA80061F9C5 /* ezra_9_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34E727E7CCA60061F9C5 /* ezra_9_seph.mp3 */; };
+		660C352E27E7CCA80061F9C5 /* ezra_6_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34E827E7CCA60061F9C5 /* ezra_6_ashk.mp3 */; };
+		660C352F27E7CCA80061F9C5 /* ezra_3_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34E927E7CCA60061F9C5 /* ezra_3_seph.mp3 */; };
+		660C353027E7CCA80061F9C5 /* daniel_10_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34EA27E7CCA60061F9C5 /* daniel_10_ashk.mp3 */; };
+		660C353127E7CCA80061F9C5 /* ezra_7_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34EB27E7CCA60061F9C5 /* ezra_7_seph.mp3 */; };
+		660C353227E7CCA80061F9C5 /* nehemiah_10_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34EC27E7CCA60061F9C5 /* nehemiah_10_ashk.mp3 */; };
+		660C353327E7CCA80061F9C5 /* ezra_3_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34ED27E7CCA60061F9C5 /* ezra_3_ashk.mp3 */; };
+		660C353427E7CCA80061F9C5 /* nehemiah_7_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34EE27E7CCA70061F9C5 /* nehemiah_7_seph.mp3 */; };
+		660C353527E7CCA80061F9C5 /* nehemiah_9_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34EF27E7CCA70061F9C5 /* nehemiah_9_seph.mp3 */; };
+		660C353627E7CCA80061F9C5 /* ezra_8_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34F027E7CCA70061F9C5 /* ezra_8_ashk.mp3 */; };
+		660C353727E7CCA80061F9C5 /* daniel_1_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34F127E7CCA70061F9C5 /* daniel_1_seph.mp3 */; };
+		660C353827E7CCA80061F9C5 /* daniel_3_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34F227E7CCA70061F9C5 /* daniel_3_seph.mp3 */; };
+		660C353927E7CCA80061F9C5 /* nehemiah_6_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34F327E7CCA70061F9C5 /* nehemiah_6_ashk.mp3 */; };
+		660C353A27E7CCA80061F9C5 /* daniel_2_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34F427E7CCA70061F9C5 /* daniel_2_seph.mp3 */; };
+		660C353B27E7CCA80061F9C5 /* ezra_9_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34F527E7CCA70061F9C5 /* ezra_9_ashk.mp3 */; };
+		660C353C27E7CCA80061F9C5 /* nehemiah_2_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34F627E7CCA70061F9C5 /* nehemiah_2_ashk.mp3 */; };
+		660C353D27E7CCA80061F9C5 /* nehemiah_12_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34F727E7CCA70061F9C5 /* nehemiah_12_seph.mp3 */; };
+		660C353E27E7CCA80061F9C5 /* nehemiah_1_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34F827E7CCA70061F9C5 /* nehemiah_1_seph.mp3 */; };
+		660C353F27E7CCA80061F9C5 /* nehemiah_10_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34F927E7CCA70061F9C5 /* nehemiah_10_seph.mp3 */; };
+		660C354027E7CCA80061F9C5 /* nehemiah_13_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34FA27E7CCA70061F9C5 /* nehemiah_13_seph.mp3 */; };
+		660C354127E7CCA80061F9C5 /* daniel_4_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34FB27E7CCA70061F9C5 /* daniel_4_ashk.mp3 */; };
+		660C354227E7CCA80061F9C5 /* daniel_2_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34FC27E7CCA70061F9C5 /* daniel_2_ashk.mp3 */; };
+		660C354327E7CCA80061F9C5 /* daniel_12_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34FD27E7CCA70061F9C5 /* daniel_12_seph.mp3 */; };
+		660C354427E7CCA80061F9C5 /* ezra_6_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34FE27E7CCA70061F9C5 /* ezra_6_seph.mp3 */; };
+		660C354527E7CCA80061F9C5 /* ezra_8_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C34FF27E7CCA70061F9C5 /* ezra_8_seph.mp3 */; };
+		660C354627E7CCA80061F9C5 /* nehemiah_3_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C350027E7CCA70061F9C5 /* nehemiah_3_seph.mp3 */; };
+		660C354727E7CCA80061F9C5 /* nehemiah_8_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C350127E7CCA70061F9C5 /* nehemiah_8_ashk.mp3 */; };
+		660C354827E7CCA80061F9C5 /* daniel_9_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C350227E7CCA70061F9C5 /* daniel_9_ashk.mp3 */; };
+		660C354927E7CCA80061F9C5 /* daniel_12_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C350327E7CCA70061F9C5 /* daniel_12_ashk.mp3 */; };
+		660C354A27E7CCA80061F9C5 /* nehemiah_3_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C350427E7CCA70061F9C5 /* nehemiah_3_ashk.mp3 */; };
+		660C354B27E7CCA80061F9C5 /* nehemiah_11_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C350527E7CCA70061F9C5 /* nehemiah_11_ashk.mp3 */; };
+		660C354C27E7CCA80061F9C5 /* nehemiah_12_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C350627E7CCA70061F9C5 /* nehemiah_12_ashk.mp3 */; };
+		660C354D27E7CCA80061F9C5 /* ezra_7_ashk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C350727E7CCA70061F9C5 /* ezra_7_ashk.mp3 */; };
+		660C354E27E7CCA80061F9C5 /* ezra_1_seph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 660C350827E7CCA70061F9C5 /* ezra_1_seph.mp3 */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9CBA1D6012C47DF8E4767050 /* libPods-DanielEzraNehemiah-DanielEzraNehemiahTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B952438D7B3765258F582EB7 /* libPods-DanielEzraNehemiah-DanielEzraNehemiahTests.a */; };
 		E740548A91485DE29C902658 /* libPods-DanielEzraNehemiah.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0B4D7A52D853D42ED13D79 /* libPods-DanielEzraNehemiah.a */; };
-		4DE2F71AC85B4C2E89E1E431 /* Ezra SIL SR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27A6C3CD2C4740C0A878D3BE /* Ezra SIL SR.ttf */; };
-		3523097FBE15458380D194AD /* StamAshkenazCLM.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A38EBB8C4EA34EF0AC6E2BE9 /* StamAshkenazCLM.ttf */; };
-		970DDED0FFD5442B9B2DC087 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 107AB59FBC7C43139860880B /* AntDesign.ttf */; };
-		6C9EB66E576A45B8A31959F4 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47A2EB65DBE84867A07AB7C5 /* Entypo.ttf */; };
-		6577A1FAA1E646988B719E74 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C059FCD2536846DFA248AFFD /* EvilIcons.ttf */; };
-		224EAA59EE514441A323E9BB /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2AAE280E50C403FB8896E40 /* Feather.ttf */; };
-		F6EFE4684FD64401B9DFB186 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B09F3186D0754C98A3B6EC88 /* FontAwesome.ttf */; };
-		764B57388FC2468297AA2811 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A6224EBCF814EA388BBDD85 /* FontAwesome5_Brands.ttf */; };
-		FF41872AA77044AA81A14C59 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50EB7E7476D84E4BBB90AC25 /* FontAwesome5_Regular.ttf */; };
-		8507896FB37246E18F2D82B0 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70DCBB41E9524F35955A0030 /* FontAwesome5_Solid.ttf */; };
-		06ECA0B1B22F43C3AF50ECAB /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BE40DCF6A5B4C83890F34DF /* Fontisto.ttf */; };
-		4C254145F9A84713B4ADFB55 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4A7662716114465946272EB /* Foundation.ttf */; };
-		DAAC1AE5935C4E8CA0BE1B2D /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E48887ECE944F09BCC4522E /* Ionicons.ttf */; };
-		5437B8E370384662A6F3B126 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1EB962DB9EC4CDCBE9CD4EF /* MaterialCommunityIcons.ttf */; };
-		C63F4D03F39340BBAE1BBFE3 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F589A68D5E34B0EAC554245 /* MaterialIcons.ttf */; };
-		7DEF5573CB364AE9859ACDE0 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38266E5723954501A6C90EFE /* Octicons.ttf */; };
-		2FEE3234F337475C9F9AC116 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FB1A3B9B7E644BAA0C24137 /* SimpleLineIcons.ttf */; };
-		BD9BB4AF4BF8428DA1B69A42 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB9FFC22DAEC48F19CDB1093 /* Zocial.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,38 +137,143 @@
 		00E356EE1AD99517003FC87E /* DanielEzraNehemiahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanielEzraNehemiahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* DanielEzraNehemiahTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanielEzraNehemiahTests.m; sourceTree = "<group>"; };
+		107AB59FBC7C43139860880B /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* DanielEzraNehemiah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanielEzraNehemiah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DanielEzraNehemiah/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DanielEzraNehemiah/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DanielEzraNehemiah/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DanielEzraNehemiah/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DanielEzraNehemiah/main.m; sourceTree = "<group>"; };
+		27A6C3CD2C4740C0A878D3BE /* Ezra SIL SR.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Ezra SIL SR.ttf"; path = "../src/assets/fonts/Ezra SIL SR.ttf"; sourceTree = "<group>"; };
 		28689F220A82BF73BEC75425 /* Pods-DanielEzraNehemiah-DanielEzraNehemiahTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanielEzraNehemiah-DanielEzraNehemiahTests.release.xcconfig"; path = "Target Support Files/Pods-DanielEzraNehemiah-DanielEzraNehemiahTests/Pods-DanielEzraNehemiah-DanielEzraNehemiahTests.release.xcconfig"; sourceTree = "<group>"; };
 		28A51A744AFB423C3C6CEF4F /* Pods-DanielEzraNehemiah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanielEzraNehemiah.release.xcconfig"; path = "Target Support Files/Pods-DanielEzraNehemiah/Pods-DanielEzraNehemiah.release.xcconfig"; sourceTree = "<group>"; };
+		2E48887ECE944F09BCC4522E /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		2F589A68D5E34B0EAC554245 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		38266E5723954501A6C90EFE /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		3BE40DCF6A5B4C83890F34DF /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		47A2EB65DBE84867A07AB7C5 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		4D0B4D7A52D853D42ED13D79 /* libPods-DanielEzraNehemiah.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DanielEzraNehemiah.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EB7E7476D84E4BBB90AC25 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		5FB1A3B9B7E644BAA0C24137 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		660C347B27E7CC9A0061F9C5 /* daniel_8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = daniel_8.json; path = ../src/assets/textJson/daniel_8.json; sourceTree = "<group>"; };
+		660C347C27E7CC9A0061F9C5 /* daniel_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = daniel_3.json; path = ../src/assets/textJson/daniel_3.json; sourceTree = "<group>"; };
+		660C347D27E7CC9A0061F9C5 /* ezra_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ezra_3.json; path = ../src/assets/textJson/ezra_3.json; sourceTree = "<group>"; };
+		660C347E27E7CC9A0061F9C5 /* daniel_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = daniel_1.json; path = ../src/assets/textJson/daniel_1.json; sourceTree = "<group>"; };
+		660C347F27E7CC9A0061F9C5 /* daniel_10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = daniel_10.json; path = ../src/assets/textJson/daniel_10.json; sourceTree = "<group>"; };
+		660C348027E7CC9A0061F9C5 /* daniel_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = daniel_4.json; path = ../src/assets/textJson/daniel_4.json; sourceTree = "<group>"; };
+		660C348127E7CC9A0061F9C5 /* nehemiah_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nehemiah_4.json; path = ../src/assets/textJson/nehemiah_4.json; sourceTree = "<group>"; };
+		660C348227E7CC9B0061F9C5 /* ezra_8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ezra_8.json; path = ../src/assets/textJson/ezra_8.json; sourceTree = "<group>"; };
+		660C348327E7CC9B0061F9C5 /* nehemiah_12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nehemiah_12.json; path = ../src/assets/textJson/nehemiah_12.json; sourceTree = "<group>"; };
+		660C348427E7CC9B0061F9C5 /* daniel_9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = daniel_9.json; path = ../src/assets/textJson/daniel_9.json; sourceTree = "<group>"; };
+		660C348527E7CC9B0061F9C5 /* daniel_12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = daniel_12.json; path = ../src/assets/textJson/daniel_12.json; sourceTree = "<group>"; };
+		660C348627E7CC9B0061F9C5 /* ezra_9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ezra_9.json; path = ../src/assets/textJson/ezra_9.json; sourceTree = "<group>"; };
+		660C348727E7CC9B0061F9C5 /* nehemiah_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nehemiah_5.json; path = ../src/assets/textJson/nehemiah_5.json; sourceTree = "<group>"; };
+		660C348827E7CC9B0061F9C5 /* ezra_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ezra_4.json; path = ../src/assets/textJson/ezra_4.json; sourceTree = "<group>"; };
+		660C348927E7CC9B0061F9C5 /* nehemiah_11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nehemiah_11.json; path = ../src/assets/textJson/nehemiah_11.json; sourceTree = "<group>"; };
+		660C348A27E7CC9B0061F9C5 /* ezra_10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ezra_10.json; path = ../src/assets/textJson/ezra_10.json; sourceTree = "<group>"; };
+		660C348B27E7CC9B0061F9C5 /* ezra_6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ezra_6.json; path = ../src/assets/textJson/ezra_6.json; sourceTree = "<group>"; };
+		660C348C27E7CC9B0061F9C5 /* nehemiah_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nehemiah_3.json; path = ../src/assets/textJson/nehemiah_3.json; sourceTree = "<group>"; };
+		660C348D27E7CC9B0061F9C5 /* nehemiah_13.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nehemiah_13.json; path = ../src/assets/textJson/nehemiah_13.json; sourceTree = "<group>"; };
+		660C348E27E7CC9B0061F9C5 /* daniel_11.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = daniel_11.json; path = ../src/assets/textJson/daniel_11.json; sourceTree = "<group>"; };
+		660C348F27E7CC9B0061F9C5 /* nehemiah_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nehemiah_1.json; path = ../src/assets/textJson/nehemiah_1.json; sourceTree = "<group>"; };
+		660C349027E7CC9B0061F9C5 /* nehemiah_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nehemiah_2.json; path = ../src/assets/textJson/nehemiah_2.json; sourceTree = "<group>"; };
+		660C349127E7CC9B0061F9C5 /* nehemiah_6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nehemiah_6.json; path = ../src/assets/textJson/nehemiah_6.json; sourceTree = "<group>"; };
+		660C349227E7CC9B0061F9C5 /* nehemiah_7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nehemiah_7.json; path = ../src/assets/textJson/nehemiah_7.json; sourceTree = "<group>"; };
+		660C349327E7CC9B0061F9C5 /* nehemiah_9.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nehemiah_9.json; path = ../src/assets/textJson/nehemiah_9.json; sourceTree = "<group>"; };
+		660C349427E7CC9B0061F9C5 /* ezra_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ezra_5.json; path = ../src/assets/textJson/ezra_5.json; sourceTree = "<group>"; };
+		660C349527E7CC9B0061F9C5 /* daniel_6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = daniel_6.json; path = ../src/assets/textJson/daniel_6.json; sourceTree = "<group>"; };
+		660C349627E7CC9B0061F9C5 /* ezra_7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ezra_7.json; path = ../src/assets/textJson/ezra_7.json; sourceTree = "<group>"; };
+		660C349727E7CC9B0061F9C5 /* ezra_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ezra_1.json; path = ../src/assets/textJson/ezra_1.json; sourceTree = "<group>"; };
+		660C349827E7CC9B0061F9C5 /* ezra_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ezra_2.json; path = ../src/assets/textJson/ezra_2.json; sourceTree = "<group>"; };
+		660C349927E7CC9B0061F9C5 /* daniel_7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = daniel_7.json; path = ../src/assets/textJson/daniel_7.json; sourceTree = "<group>"; };
+		660C349A27E7CC9B0061F9C5 /* nehemiah_8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nehemiah_8.json; path = ../src/assets/textJson/nehemiah_8.json; sourceTree = "<group>"; };
+		660C349B27E7CC9B0061F9C5 /* daniel_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = daniel_5.json; path = ../src/assets/textJson/daniel_5.json; sourceTree = "<group>"; };
+		660C349C27E7CC9B0061F9C5 /* nehemiah_10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nehemiah_10.json; path = ../src/assets/textJson/nehemiah_10.json; sourceTree = "<group>"; };
+		660C349D27E7CC9B0061F9C5 /* daniel_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = daniel_2.json; path = ../src/assets/textJson/daniel_2.json; sourceTree = "<group>"; };
+		660C34C327E7CCA50061F9C5 /* nehemiah_5_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_5_seph.mp3; path = ../src/assets/audio/nehemiah_5_seph.mp3; sourceTree = "<group>"; };
+		660C34C427E7CCA50061F9C5 /* ezra_2_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_2_ashk.mp3; path = ../src/assets/audio/ezra_2_ashk.mp3; sourceTree = "<group>"; };
+		660C34C527E7CCA50061F9C5 /* ezra_1_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_1_ashk.mp3; path = ../src/assets/audio/ezra_1_ashk.mp3; sourceTree = "<group>"; };
+		660C34C627E7CCA50061F9C5 /* ezra_2_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_2_seph.mp3; path = ../src/assets/audio/ezra_2_seph.mp3; sourceTree = "<group>"; };
+		660C34C727E7CCA50061F9C5 /* daniel_5_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_5_ashk.mp3; path = ../src/assets/audio/daniel_5_ashk.mp3; sourceTree = "<group>"; };
+		660C34C827E7CCA50061F9C5 /* ezra_10_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_10_seph.mp3; path = ../src/assets/audio/ezra_10_seph.mp3; sourceTree = "<group>"; };
+		660C34C927E7CCA50061F9C5 /* ezra_10_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_10_ashk.mp3; path = ../src/assets/audio/ezra_10_ashk.mp3; sourceTree = "<group>"; };
+		660C34CA27E7CCA50061F9C5 /* daniel_6_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_6_seph.mp3; path = ../src/assets/audio/daniel_6_seph.mp3; sourceTree = "<group>"; };
+		660C34CB27E7CCA50061F9C5 /* ezra_5_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_5_ashk.mp3; path = ../src/assets/audio/ezra_5_ashk.mp3; sourceTree = "<group>"; };
+		660C34CC27E7CCA50061F9C5 /* nehemiah_1_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_1_ashk.mp3; path = ../src/assets/audio/nehemiah_1_ashk.mp3; sourceTree = "<group>"; };
+		660C34CD27E7CCA50061F9C5 /* daniel_3_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_3_ashk.mp3; path = ../src/assets/audio/daniel_3_ashk.mp3; sourceTree = "<group>"; };
+		660C34CE27E7CCA50061F9C5 /* nehemiah_2_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_2_seph.mp3; path = ../src/assets/audio/nehemiah_2_seph.mp3; sourceTree = "<group>"; };
+		660C34CF27E7CCA50061F9C5 /* daniel_11_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_11_seph.mp3; path = ../src/assets/audio/daniel_11_seph.mp3; sourceTree = "<group>"; };
+		660C34D027E7CCA50061F9C5 /* nehemiah_5_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_5_ashk.mp3; path = ../src/assets/audio/nehemiah_5_ashk.mp3; sourceTree = "<group>"; };
+		660C34D127E7CCA50061F9C5 /* daniel_6_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_6_ashk.mp3; path = ../src/assets/audio/daniel_6_ashk.mp3; sourceTree = "<group>"; };
+		660C34D227E7CCA60061F9C5 /* daniel_5_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_5_seph.mp3; path = ../src/assets/audio/daniel_5_seph.mp3; sourceTree = "<group>"; };
+		660C34D327E7CCA60061F9C5 /* nehemiah_6_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_6_seph.mp3; path = ../src/assets/audio/nehemiah_6_seph.mp3; sourceTree = "<group>"; };
+		660C34D427E7CCA60061F9C5 /* ezra_5_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_5_seph.mp3; path = ../src/assets/audio/ezra_5_seph.mp3; sourceTree = "<group>"; };
+		660C34D527E7CCA60061F9C5 /* nehemiah_4_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_4_ashk.mp3; path = ../src/assets/audio/nehemiah_4_ashk.mp3; sourceTree = "<group>"; };
+		660C34D627E7CCA60061F9C5 /* nehemiah_8_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_8_seph.mp3; path = ../src/assets/audio/nehemiah_8_seph.mp3; sourceTree = "<group>"; };
+		660C34D727E7CCA60061F9C5 /* nehemiah_13_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_13_ashk.mp3; path = ../src/assets/audio/nehemiah_13_ashk.mp3; sourceTree = "<group>"; };
+		660C34D827E7CCA60061F9C5 /* daniel_7_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_7_seph.mp3; path = ../src/assets/audio/daniel_7_seph.mp3; sourceTree = "<group>"; };
+		660C34D927E7CCA60061F9C5 /* daniel_10_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_10_seph.mp3; path = ../src/assets/audio/daniel_10_seph.mp3; sourceTree = "<group>"; };
+		660C34DA27E7CCA60061F9C5 /* ezra_4_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_4_seph.mp3; path = ../src/assets/audio/ezra_4_seph.mp3; sourceTree = "<group>"; };
+		660C34DB27E7CCA60061F9C5 /* daniel_11_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_11_ashk.mp3; path = ../src/assets/audio/daniel_11_ashk.mp3; sourceTree = "<group>"; };
+		660C34DC27E7CCA60061F9C5 /* daniel_4_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_4_seph.mp3; path = ../src/assets/audio/daniel_4_seph.mp3; sourceTree = "<group>"; };
+		660C34DD27E7CCA60061F9C5 /* nehemiah_4_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_4_seph.mp3; path = ../src/assets/audio/nehemiah_4_seph.mp3; sourceTree = "<group>"; };
+		660C34DE27E7CCA60061F9C5 /* nehemiah_9_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_9_ashk.mp3; path = ../src/assets/audio/nehemiah_9_ashk.mp3; sourceTree = "<group>"; };
+		660C34DF27E7CCA60061F9C5 /* nehemiah_11_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_11_seph.mp3; path = ../src/assets/audio/nehemiah_11_seph.mp3; sourceTree = "<group>"; };
+		660C34E027E7CCA60061F9C5 /* daniel_8_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_8_ashk.mp3; path = ../src/assets/audio/daniel_8_ashk.mp3; sourceTree = "<group>"; };
+		660C34E127E7CCA60061F9C5 /* daniel_9_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_9_seph.mp3; path = ../src/assets/audio/daniel_9_seph.mp3; sourceTree = "<group>"; };
+		660C34E227E7CCA60061F9C5 /* nehemiah_7_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_7_ashk.mp3; path = ../src/assets/audio/nehemiah_7_ashk.mp3; sourceTree = "<group>"; };
+		660C34E327E7CCA60061F9C5 /* daniel_8_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_8_seph.mp3; path = ../src/assets/audio/daniel_8_seph.mp3; sourceTree = "<group>"; };
+		660C34E427E7CCA60061F9C5 /* daniel_1_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_1_ashk.mp3; path = ../src/assets/audio/daniel_1_ashk.mp3; sourceTree = "<group>"; };
+		660C34E527E7CCA60061F9C5 /* ezra_4_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_4_ashk.mp3; path = ../src/assets/audio/ezra_4_ashk.mp3; sourceTree = "<group>"; };
+		660C34E627E7CCA60061F9C5 /* daniel_7_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_7_ashk.mp3; path = ../src/assets/audio/daniel_7_ashk.mp3; sourceTree = "<group>"; };
+		660C34E727E7CCA60061F9C5 /* ezra_9_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_9_seph.mp3; path = ../src/assets/audio/ezra_9_seph.mp3; sourceTree = "<group>"; };
+		660C34E827E7CCA60061F9C5 /* ezra_6_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_6_ashk.mp3; path = ../src/assets/audio/ezra_6_ashk.mp3; sourceTree = "<group>"; };
+		660C34E927E7CCA60061F9C5 /* ezra_3_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_3_seph.mp3; path = ../src/assets/audio/ezra_3_seph.mp3; sourceTree = "<group>"; };
+		660C34EA27E7CCA60061F9C5 /* daniel_10_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_10_ashk.mp3; path = ../src/assets/audio/daniel_10_ashk.mp3; sourceTree = "<group>"; };
+		660C34EB27E7CCA60061F9C5 /* ezra_7_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_7_seph.mp3; path = ../src/assets/audio/ezra_7_seph.mp3; sourceTree = "<group>"; };
+		660C34EC27E7CCA60061F9C5 /* nehemiah_10_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_10_ashk.mp3; path = ../src/assets/audio/nehemiah_10_ashk.mp3; sourceTree = "<group>"; };
+		660C34ED27E7CCA60061F9C5 /* ezra_3_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_3_ashk.mp3; path = ../src/assets/audio/ezra_3_ashk.mp3; sourceTree = "<group>"; };
+		660C34EE27E7CCA70061F9C5 /* nehemiah_7_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_7_seph.mp3; path = ../src/assets/audio/nehemiah_7_seph.mp3; sourceTree = "<group>"; };
+		660C34EF27E7CCA70061F9C5 /* nehemiah_9_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_9_seph.mp3; path = ../src/assets/audio/nehemiah_9_seph.mp3; sourceTree = "<group>"; };
+		660C34F027E7CCA70061F9C5 /* ezra_8_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_8_ashk.mp3; path = ../src/assets/audio/ezra_8_ashk.mp3; sourceTree = "<group>"; };
+		660C34F127E7CCA70061F9C5 /* daniel_1_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_1_seph.mp3; path = ../src/assets/audio/daniel_1_seph.mp3; sourceTree = "<group>"; };
+		660C34F227E7CCA70061F9C5 /* daniel_3_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_3_seph.mp3; path = ../src/assets/audio/daniel_3_seph.mp3; sourceTree = "<group>"; };
+		660C34F327E7CCA70061F9C5 /* nehemiah_6_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_6_ashk.mp3; path = ../src/assets/audio/nehemiah_6_ashk.mp3; sourceTree = "<group>"; };
+		660C34F427E7CCA70061F9C5 /* daniel_2_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_2_seph.mp3; path = ../src/assets/audio/daniel_2_seph.mp3; sourceTree = "<group>"; };
+		660C34F527E7CCA70061F9C5 /* ezra_9_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_9_ashk.mp3; path = ../src/assets/audio/ezra_9_ashk.mp3; sourceTree = "<group>"; };
+		660C34F627E7CCA70061F9C5 /* nehemiah_2_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_2_ashk.mp3; path = ../src/assets/audio/nehemiah_2_ashk.mp3; sourceTree = "<group>"; };
+		660C34F727E7CCA70061F9C5 /* nehemiah_12_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_12_seph.mp3; path = ../src/assets/audio/nehemiah_12_seph.mp3; sourceTree = "<group>"; };
+		660C34F827E7CCA70061F9C5 /* nehemiah_1_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_1_seph.mp3; path = ../src/assets/audio/nehemiah_1_seph.mp3; sourceTree = "<group>"; };
+		660C34F927E7CCA70061F9C5 /* nehemiah_10_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_10_seph.mp3; path = ../src/assets/audio/nehemiah_10_seph.mp3; sourceTree = "<group>"; };
+		660C34FA27E7CCA70061F9C5 /* nehemiah_13_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_13_seph.mp3; path = ../src/assets/audio/nehemiah_13_seph.mp3; sourceTree = "<group>"; };
+		660C34FB27E7CCA70061F9C5 /* daniel_4_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_4_ashk.mp3; path = ../src/assets/audio/daniel_4_ashk.mp3; sourceTree = "<group>"; };
+		660C34FC27E7CCA70061F9C5 /* daniel_2_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_2_ashk.mp3; path = ../src/assets/audio/daniel_2_ashk.mp3; sourceTree = "<group>"; };
+		660C34FD27E7CCA70061F9C5 /* daniel_12_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_12_seph.mp3; path = ../src/assets/audio/daniel_12_seph.mp3; sourceTree = "<group>"; };
+		660C34FE27E7CCA70061F9C5 /* ezra_6_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_6_seph.mp3; path = ../src/assets/audio/ezra_6_seph.mp3; sourceTree = "<group>"; };
+		660C34FF27E7CCA70061F9C5 /* ezra_8_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_8_seph.mp3; path = ../src/assets/audio/ezra_8_seph.mp3; sourceTree = "<group>"; };
+		660C350027E7CCA70061F9C5 /* nehemiah_3_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_3_seph.mp3; path = ../src/assets/audio/nehemiah_3_seph.mp3; sourceTree = "<group>"; };
+		660C350127E7CCA70061F9C5 /* nehemiah_8_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_8_ashk.mp3; path = ../src/assets/audio/nehemiah_8_ashk.mp3; sourceTree = "<group>"; };
+		660C350227E7CCA70061F9C5 /* daniel_9_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_9_ashk.mp3; path = ../src/assets/audio/daniel_9_ashk.mp3; sourceTree = "<group>"; };
+		660C350327E7CCA70061F9C5 /* daniel_12_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = daniel_12_ashk.mp3; path = ../src/assets/audio/daniel_12_ashk.mp3; sourceTree = "<group>"; };
+		660C350427E7CCA70061F9C5 /* nehemiah_3_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_3_ashk.mp3; path = ../src/assets/audio/nehemiah_3_ashk.mp3; sourceTree = "<group>"; };
+		660C350527E7CCA70061F9C5 /* nehemiah_11_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_11_ashk.mp3; path = ../src/assets/audio/nehemiah_11_ashk.mp3; sourceTree = "<group>"; };
+		660C350627E7CCA70061F9C5 /* nehemiah_12_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nehemiah_12_ashk.mp3; path = ../src/assets/audio/nehemiah_12_ashk.mp3; sourceTree = "<group>"; };
+		660C350727E7CCA70061F9C5 /* ezra_7_ashk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_7_ashk.mp3; path = ../src/assets/audio/ezra_7_ashk.mp3; sourceTree = "<group>"; };
+		660C350827E7CCA70061F9C5 /* ezra_1_seph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ezra_1_seph.mp3; path = ../src/assets/audio/ezra_1_seph.mp3; sourceTree = "<group>"; };
+		70DCBB41E9524F35955A0030 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DanielEzraNehemiah/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A6224EBCF814EA388BBDD85 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		A38EBB8C4EA34EF0AC6E2BE9 /* StamAshkenazCLM.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = StamAshkenazCLM.ttf; path = ../src/assets/fonts/StamAshkenazCLM.ttf; sourceTree = "<group>"; };
+		A4A7662716114465946272EB /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		B09F3186D0754C98A3B6EC88 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		B952438D7B3765258F582EB7 /* libPods-DanielEzraNehemiah-DanielEzraNehemiahTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DanielEzraNehemiah-DanielEzraNehemiahTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C059FCD2536846DFA248AFFD /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		CB9FFC22DAEC48F19CDB1093 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		D1EB962DB9EC4CDCBE9CD4EF /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		DE1FEC7B350B26F771B2A780 /* Pods-DanielEzraNehemiah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanielEzraNehemiah.debug.xcconfig"; path = "Target Support Files/Pods-DanielEzraNehemiah/Pods-DanielEzraNehemiah.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F2AAE280E50C403FB8896E40 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		F599C2E84FDEAF34F11E98D5 /* Pods-DanielEzraNehemiah-DanielEzraNehemiahTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanielEzraNehemiah-DanielEzraNehemiahTests.debug.xcconfig"; path = "Target Support Files/Pods-DanielEzraNehemiah-DanielEzraNehemiahTests/Pods-DanielEzraNehemiah-DanielEzraNehemiahTests.debug.xcconfig"; sourceTree = "<group>"; };
-		27A6C3CD2C4740C0A878D3BE /* Ezra SIL SR.ttf */ = {isa = PBXFileReference; name = "Ezra SIL SR.ttf"; path = "../src/assets/fonts/Ezra SIL SR.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A38EBB8C4EA34EF0AC6E2BE9 /* StamAshkenazCLM.ttf */ = {isa = PBXFileReference; name = "StamAshkenazCLM.ttf"; path = "../src/assets/fonts/StamAshkenazCLM.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		107AB59FBC7C43139860880B /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		47A2EB65DBE84867A07AB7C5 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C059FCD2536846DFA248AFFD /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F2AAE280E50C403FB8896E40 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B09F3186D0754C98A3B6EC88 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8A6224EBCF814EA388BBDD85 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		50EB7E7476D84E4BBB90AC25 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		70DCBB41E9524F35955A0030 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3BE40DCF6A5B4C83890F34DF /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A4A7662716114465946272EB /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2E48887ECE944F09BCC4522E /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D1EB962DB9EC4CDCBE9CD4EF /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2F589A68D5E34B0EAC554245 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		38266E5723954501A6C90EFE /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5FB1A3B9B7E644BAA0C24137 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CB9FFC22DAEC48F19CDB1093 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +321,6 @@
 				F599C2E84FDEAF34F11E98D5 /* Pods-DanielEzraNehemiah-DanielEzraNehemiahTests.debug.xcconfig */,
 				28689F220A82BF73BEC75425 /* Pods-DanielEzraNehemiah-DanielEzraNehemiahTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +345,136 @@
 				B952438D7B3765258F582EB7 /* libPods-DanielEzraNehemiah-DanielEzraNehemiahTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CEDDB058D8540AB9C9D8F57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				660C34E427E7CCA60061F9C5 /* daniel_1_ashk.mp3 */,
+				660C34F127E7CCA70061F9C5 /* daniel_1_seph.mp3 */,
+				660C34FC27E7CCA70061F9C5 /* daniel_2_ashk.mp3 */,
+				660C34F427E7CCA70061F9C5 /* daniel_2_seph.mp3 */,
+				660C34CD27E7CCA50061F9C5 /* daniel_3_ashk.mp3 */,
+				660C34F227E7CCA70061F9C5 /* daniel_3_seph.mp3 */,
+				660C34FB27E7CCA70061F9C5 /* daniel_4_ashk.mp3 */,
+				660C34DC27E7CCA60061F9C5 /* daniel_4_seph.mp3 */,
+				660C34C727E7CCA50061F9C5 /* daniel_5_ashk.mp3 */,
+				660C34D227E7CCA60061F9C5 /* daniel_5_seph.mp3 */,
+				660C34D127E7CCA50061F9C5 /* daniel_6_ashk.mp3 */,
+				660C34CA27E7CCA50061F9C5 /* daniel_6_seph.mp3 */,
+				660C34E627E7CCA60061F9C5 /* daniel_7_ashk.mp3 */,
+				660C34D827E7CCA60061F9C5 /* daniel_7_seph.mp3 */,
+				660C34E027E7CCA60061F9C5 /* daniel_8_ashk.mp3 */,
+				660C34E327E7CCA60061F9C5 /* daniel_8_seph.mp3 */,
+				660C350227E7CCA70061F9C5 /* daniel_9_ashk.mp3 */,
+				660C34E127E7CCA60061F9C5 /* daniel_9_seph.mp3 */,
+				660C34EA27E7CCA60061F9C5 /* daniel_10_ashk.mp3 */,
+				660C34D927E7CCA60061F9C5 /* daniel_10_seph.mp3 */,
+				660C34DB27E7CCA60061F9C5 /* daniel_11_ashk.mp3 */,
+				660C34CF27E7CCA50061F9C5 /* daniel_11_seph.mp3 */,
+				660C350327E7CCA70061F9C5 /* daniel_12_ashk.mp3 */,
+				660C34FD27E7CCA70061F9C5 /* daniel_12_seph.mp3 */,
+				660C34C527E7CCA50061F9C5 /* ezra_1_ashk.mp3 */,
+				660C350827E7CCA70061F9C5 /* ezra_1_seph.mp3 */,
+				660C34C427E7CCA50061F9C5 /* ezra_2_ashk.mp3 */,
+				660C34C627E7CCA50061F9C5 /* ezra_2_seph.mp3 */,
+				660C34ED27E7CCA60061F9C5 /* ezra_3_ashk.mp3 */,
+				660C34E927E7CCA60061F9C5 /* ezra_3_seph.mp3 */,
+				660C34E527E7CCA60061F9C5 /* ezra_4_ashk.mp3 */,
+				660C34DA27E7CCA60061F9C5 /* ezra_4_seph.mp3 */,
+				660C34CB27E7CCA50061F9C5 /* ezra_5_ashk.mp3 */,
+				660C34D427E7CCA60061F9C5 /* ezra_5_seph.mp3 */,
+				660C34E827E7CCA60061F9C5 /* ezra_6_ashk.mp3 */,
+				660C34FE27E7CCA70061F9C5 /* ezra_6_seph.mp3 */,
+				660C350727E7CCA70061F9C5 /* ezra_7_ashk.mp3 */,
+				660C34EB27E7CCA60061F9C5 /* ezra_7_seph.mp3 */,
+				660C34F027E7CCA70061F9C5 /* ezra_8_ashk.mp3 */,
+				660C34FF27E7CCA70061F9C5 /* ezra_8_seph.mp3 */,
+				660C34F527E7CCA70061F9C5 /* ezra_9_ashk.mp3 */,
+				660C34E727E7CCA60061F9C5 /* ezra_9_seph.mp3 */,
+				660C34C927E7CCA50061F9C5 /* ezra_10_ashk.mp3 */,
+				660C34C827E7CCA50061F9C5 /* ezra_10_seph.mp3 */,
+				660C34CC27E7CCA50061F9C5 /* nehemiah_1_ashk.mp3 */,
+				660C34F827E7CCA70061F9C5 /* nehemiah_1_seph.mp3 */,
+				660C34F627E7CCA70061F9C5 /* nehemiah_2_ashk.mp3 */,
+				660C34CE27E7CCA50061F9C5 /* nehemiah_2_seph.mp3 */,
+				660C350427E7CCA70061F9C5 /* nehemiah_3_ashk.mp3 */,
+				660C350027E7CCA70061F9C5 /* nehemiah_3_seph.mp3 */,
+				660C34D527E7CCA60061F9C5 /* nehemiah_4_ashk.mp3 */,
+				660C34DD27E7CCA60061F9C5 /* nehemiah_4_seph.mp3 */,
+				660C34D027E7CCA50061F9C5 /* nehemiah_5_ashk.mp3 */,
+				660C34C327E7CCA50061F9C5 /* nehemiah_5_seph.mp3 */,
+				660C34F327E7CCA70061F9C5 /* nehemiah_6_ashk.mp3 */,
+				660C34D327E7CCA60061F9C5 /* nehemiah_6_seph.mp3 */,
+				660C34E227E7CCA60061F9C5 /* nehemiah_7_ashk.mp3 */,
+				660C34EE27E7CCA70061F9C5 /* nehemiah_7_seph.mp3 */,
+				660C350127E7CCA70061F9C5 /* nehemiah_8_ashk.mp3 */,
+				660C34D627E7CCA60061F9C5 /* nehemiah_8_seph.mp3 */,
+				660C34DE27E7CCA60061F9C5 /* nehemiah_9_ashk.mp3 */,
+				660C34EF27E7CCA70061F9C5 /* nehemiah_9_seph.mp3 */,
+				660C34EC27E7CCA60061F9C5 /* nehemiah_10_ashk.mp3 */,
+				660C34F927E7CCA70061F9C5 /* nehemiah_10_seph.mp3 */,
+				660C350527E7CCA70061F9C5 /* nehemiah_11_ashk.mp3 */,
+				660C34DF27E7CCA60061F9C5 /* nehemiah_11_seph.mp3 */,
+				660C350627E7CCA70061F9C5 /* nehemiah_12_ashk.mp3 */,
+				660C34F727E7CCA70061F9C5 /* nehemiah_12_seph.mp3 */,
+				660C34D727E7CCA60061F9C5 /* nehemiah_13_ashk.mp3 */,
+				660C34FA27E7CCA70061F9C5 /* nehemiah_13_seph.mp3 */,
+				660C347E27E7CC9A0061F9C5 /* daniel_1.json */,
+				660C349D27E7CC9B0061F9C5 /* daniel_2.json */,
+				660C347C27E7CC9A0061F9C5 /* daniel_3.json */,
+				660C348027E7CC9A0061F9C5 /* daniel_4.json */,
+				660C349B27E7CC9B0061F9C5 /* daniel_5.json */,
+				660C349527E7CC9B0061F9C5 /* daniel_6.json */,
+				660C349927E7CC9B0061F9C5 /* daniel_7.json */,
+				660C347B27E7CC9A0061F9C5 /* daniel_8.json */,
+				660C348427E7CC9B0061F9C5 /* daniel_9.json */,
+				660C347F27E7CC9A0061F9C5 /* daniel_10.json */,
+				660C348E27E7CC9B0061F9C5 /* daniel_11.json */,
+				660C348527E7CC9B0061F9C5 /* daniel_12.json */,
+				660C349727E7CC9B0061F9C5 /* ezra_1.json */,
+				660C349827E7CC9B0061F9C5 /* ezra_2.json */,
+				660C347D27E7CC9A0061F9C5 /* ezra_3.json */,
+				660C348827E7CC9B0061F9C5 /* ezra_4.json */,
+				660C349427E7CC9B0061F9C5 /* ezra_5.json */,
+				660C348B27E7CC9B0061F9C5 /* ezra_6.json */,
+				660C349627E7CC9B0061F9C5 /* ezra_7.json */,
+				660C348227E7CC9B0061F9C5 /* ezra_8.json */,
+				660C348627E7CC9B0061F9C5 /* ezra_9.json */,
+				660C348A27E7CC9B0061F9C5 /* ezra_10.json */,
+				660C348F27E7CC9B0061F9C5 /* nehemiah_1.json */,
+				660C349027E7CC9B0061F9C5 /* nehemiah_2.json */,
+				660C348C27E7CC9B0061F9C5 /* nehemiah_3.json */,
+				660C348127E7CC9A0061F9C5 /* nehemiah_4.json */,
+				660C348727E7CC9B0061F9C5 /* nehemiah_5.json */,
+				660C349127E7CC9B0061F9C5 /* nehemiah_6.json */,
+				660C349227E7CC9B0061F9C5 /* nehemiah_7.json */,
+				660C349A27E7CC9B0061F9C5 /* nehemiah_8.json */,
+				660C349327E7CC9B0061F9C5 /* nehemiah_9.json */,
+				660C349C27E7CC9B0061F9C5 /* nehemiah_10.json */,
+				660C348927E7CC9B0061F9C5 /* nehemiah_11.json */,
+				660C348327E7CC9B0061F9C5 /* nehemiah_12.json */,
+				660C348D27E7CC9B0061F9C5 /* nehemiah_13.json */,
+				27A6C3CD2C4740C0A878D3BE /* Ezra SIL SR.ttf */,
+				A38EBB8C4EA34EF0AC6E2BE9 /* StamAshkenazCLM.ttf */,
+				107AB59FBC7C43139860880B /* AntDesign.ttf */,
+				47A2EB65DBE84867A07AB7C5 /* Entypo.ttf */,
+				C059FCD2536846DFA248AFFD /* EvilIcons.ttf */,
+				F2AAE280E50C403FB8896E40 /* Feather.ttf */,
+				B09F3186D0754C98A3B6EC88 /* FontAwesome.ttf */,
+				8A6224EBCF814EA388BBDD85 /* FontAwesome5_Brands.ttf */,
+				50EB7E7476D84E4BBB90AC25 /* FontAwesome5_Regular.ttf */,
+				70DCBB41E9524F35955A0030 /* FontAwesome5_Solid.ttf */,
+				3BE40DCF6A5B4C83890F34DF /* Fontisto.ttf */,
+				A4A7662716114465946272EB /* Foundation.ttf */,
+				2E48887ECE944F09BCC4522E /* Ionicons.ttf */,
+				D1EB962DB9EC4CDCBE9CD4EF /* MaterialCommunityIcons.ttf */,
+				2F589A68D5E34B0EAC554245 /* MaterialIcons.ttf */,
+				38266E5723954501A6C90EFE /* Octicons.ttf */,
+				5FB1A3B9B7E644BAA0C24137 /* SimpleLineIcons.ttf */,
+				CB9FFC22DAEC48F19CDB1093 /* Zocial.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -185,32 +508,6 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
-		};
-		7CEDDB058D8540AB9C9D8F57 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				27A6C3CD2C4740C0A878D3BE /* Ezra SIL SR.ttf */,
-				A38EBB8C4EA34EF0AC6E2BE9 /* StamAshkenazCLM.ttf */,
-				107AB59FBC7C43139860880B /* AntDesign.ttf */,
-				47A2EB65DBE84867A07AB7C5 /* Entypo.ttf */,
-				C059FCD2536846DFA248AFFD /* EvilIcons.ttf */,
-				F2AAE280E50C403FB8896E40 /* Feather.ttf */,
-				B09F3186D0754C98A3B6EC88 /* FontAwesome.ttf */,
-				8A6224EBCF814EA388BBDD85 /* FontAwesome5_Brands.ttf */,
-				50EB7E7476D84E4BBB90AC25 /* FontAwesome5_Regular.ttf */,
-				70DCBB41E9524F35955A0030 /* FontAwesome5_Solid.ttf */,
-				3BE40DCF6A5B4C83890F34DF /* Fontisto.ttf */,
-				A4A7662716114465946272EB /* Foundation.ttf */,
-				2E48887ECE944F09BCC4522E /* Ionicons.ttf */,
-				D1EB962DB9EC4CDCBE9CD4EF /* MaterialCommunityIcons.ttf */,
-				2F589A68D5E34B0EAC554245 /* MaterialIcons.ttf */,
-				38266E5723954501A6C90EFE /* Octicons.ttf */,
-				5FB1A3B9B7E644BAA0C24137 /* SimpleLineIcons.ttf */,
-				CB9FFC22DAEC48F19CDB1093 /* Zocial.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -306,26 +603,115 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660C34AC27E7CC9B0061F9C5 /* nehemiah_11.json in Resources */,
+				660C34B727E7CC9C0061F9C5 /* ezra_5.json in Resources */,
+				660C351027E7CCA80061F9C5 /* daniel_6_seph.mp3 in Resources */,
+				660C353727E7CCA80061F9C5 /* daniel_1_seph.mp3 in Resources */,
+				660C354B27E7CCA80061F9C5 /* nehemiah_11_ashk.mp3 in Resources */,
+				660C350E27E7CCA80061F9C5 /* ezra_10_seph.mp3 in Resources */,
+				660C353127E7CCA80061F9C5 /* ezra_7_seph.mp3 in Resources */,
+				660C353827E7CCA80061F9C5 /* daniel_3_seph.mp3 in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				660C350F27E7CCA80061F9C5 /* ezra_10_ashk.mp3 in Resources */,
+				660C34AD27E7CC9B0061F9C5 /* ezra_10.json in Resources */,
+				660C354C27E7CCA80061F9C5 /* nehemiah_12_ashk.mp3 in Resources */,
+				660C34B627E7CC9C0061F9C5 /* nehemiah_9.json in Resources */,
+				660C351E27E7CCA80061F9C5 /* daniel_7_seph.mp3 in Resources */,
+				660C34A327E7CC9B0061F9C5 /* daniel_4.json in Resources */,
+				660C352B27E7CCA80061F9C5 /* ezra_4_ashk.mp3 in Resources */,
+				660C353627E7CCA80061F9C5 /* ezra_8_ashk.mp3 in Resources */,
+				660C350A27E7CCA80061F9C5 /* ezra_2_ashk.mp3 in Resources */,
+				660C354E27E7CCA80061F9C5 /* ezra_1_seph.mp3 in Resources */,
+				660C34AF27E7CC9B0061F9C5 /* nehemiah_3.json in Resources */,
+				660C351A27E7CCA80061F9C5 /* ezra_5_seph.mp3 in Resources */,
+				660C34A727E7CC9B0061F9C5 /* daniel_9.json in Resources */,
+				660C352E27E7CCA80061F9C5 /* ezra_6_ashk.mp3 in Resources */,
+				660C34AE27E7CC9B0061F9C5 /* ezra_6.json in Resources */,
+				660C351527E7CCA80061F9C5 /* daniel_11_seph.mp3 in Resources */,
+				660C353D27E7CCA80061F9C5 /* nehemiah_12_seph.mp3 in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				660C34A127E7CC9B0061F9C5 /* daniel_1.json in Resources */,
+				660C354D27E7CCA80061F9C5 /* ezra_7_ashk.mp3 in Resources */,
 				4DE2F71AC85B4C2E89E1E431 /* Ezra SIL SR.ttf in Resources */,
 				3523097FBE15458380D194AD /* StamAshkenazCLM.ttf in Resources */,
-				970DDED0FFD5442B9B2DC087 /* AntDesign.ttf in Resources */,
-				6C9EB66E576A45B8A31959F4 /* Entypo.ttf in Resources */,
-				6577A1FAA1E646988B719E74 /* EvilIcons.ttf in Resources */,
-				224EAA59EE514441A323E9BB /* Feather.ttf in Resources */,
-				F6EFE4684FD64401B9DFB186 /* FontAwesome.ttf in Resources */,
-				764B57388FC2468297AA2811 /* FontAwesome5_Brands.ttf in Resources */,
-				FF41872AA77044AA81A14C59 /* FontAwesome5_Regular.ttf in Resources */,
-				8507896FB37246E18F2D82B0 /* FontAwesome5_Solid.ttf in Resources */,
-				06ECA0B1B22F43C3AF50ECAB /* Fontisto.ttf in Resources */,
-				4C254145F9A84713B4ADFB55 /* Foundation.ttf in Resources */,
-				DAAC1AE5935C4E8CA0BE1B2D /* Ionicons.ttf in Resources */,
-				5437B8E370384662A6F3B126 /* MaterialCommunityIcons.ttf in Resources */,
-				C63F4D03F39340BBAE1BBFE3 /* MaterialIcons.ttf in Resources */,
-				7DEF5573CB364AE9859ACDE0 /* Octicons.ttf in Resources */,
-				2FEE3234F337475C9F9AC116 /* SimpleLineIcons.ttf in Resources */,
-				BD9BB4AF4BF8428DA1B69A42 /* Zocial.ttf in Resources */,
+				660C34B127E7CC9B0061F9C5 /* daniel_11.json in Resources */,
+				660C34B227E7CC9B0061F9C5 /* nehemiah_1.json in Resources */,
+				660C354027E7CCA80061F9C5 /* nehemiah_13_seph.mp3 in Resources */,
+				660C353B27E7CCA80061F9C5 /* ezra_9_ashk.mp3 in Resources */,
+				660C350B27E7CCA80061F9C5 /* ezra_1_ashk.mp3 in Resources */,
+				660C351227E7CCA80061F9C5 /* nehemiah_1_ashk.mp3 in Resources */,
+				660C351627E7CCA80061F9C5 /* nehemiah_5_ashk.mp3 in Resources */,
+				660C351F27E7CCA80061F9C5 /* daniel_10_seph.mp3 in Resources */,
+				660C34AB27E7CC9B0061F9C5 /* ezra_4.json in Resources */,
+				660C354127E7CCA80061F9C5 /* daniel_4_ashk.mp3 in Resources */,
+				660C349F27E7CC9B0061F9C5 /* daniel_3.json in Resources */,
+				660C353327E7CCA80061F9C5 /* ezra_3_ashk.mp3 in Resources */,
+				660C351127E7CCA80061F9C5 /* ezra_5_ashk.mp3 in Resources */,
+				660C353227E7CCA80061F9C5 /* nehemiah_10_ashk.mp3 in Resources */,
+				660C352C27E7CCA80061F9C5 /* daniel_7_ashk.mp3 in Resources */,
+				660C34A427E7CC9B0061F9C5 /* nehemiah_4.json in Resources */,
+				660C353427E7CCA80061F9C5 /* nehemiah_7_seph.mp3 in Resources */,
+				660C34B827E7CC9C0061F9C5 /* daniel_6.json in Resources */,
+				660C352227E7CCA80061F9C5 /* daniel_4_seph.mp3 in Resources */,
+				660C352527E7CCA80061F9C5 /* nehemiah_11_seph.mp3 in Resources */,
+				660C352127E7CCA80061F9C5 /* daniel_11_ashk.mp3 in Resources */,
+				660C354527E7CCA80061F9C5 /* ezra_8_seph.mp3 in Resources */,
+				660C34A227E7CC9B0061F9C5 /* daniel_10.json in Resources */,
+				660C353E27E7CCA80061F9C5 /* nehemiah_1_seph.mp3 in Resources */,
+				660C352927E7CCA80061F9C5 /* daniel_8_seph.mp3 in Resources */,
+				660C34B927E7CC9C0061F9C5 /* ezra_7.json in Resources */,
+				660C354827E7CCA80061F9C5 /* daniel_9_ashk.mp3 in Resources */,
+				660C349E27E7CC9B0061F9C5 /* daniel_8.json in Resources */,
+				660C34AA27E7CC9B0061F9C5 /* nehemiah_5.json in Resources */,
+				660C354427E7CCA80061F9C5 /* ezra_6_seph.mp3 in Resources */,
+				660C352027E7CCA80061F9C5 /* ezra_4_seph.mp3 in Resources */,
+				660C351827E7CCA80061F9C5 /* daniel_5_seph.mp3 in Resources */,
+				660C351B27E7CCA80061F9C5 /* nehemiah_4_ashk.mp3 in Resources */,
+				660C350C27E7CCA80061F9C5 /* ezra_2_seph.mp3 in Resources */,
+				660C353027E7CCA80061F9C5 /* daniel_10_ashk.mp3 in Resources */,
+				660C354927E7CCA80061F9C5 /* daniel_12_ashk.mp3 in Resources */,
+				660C34BE27E7CC9C0061F9C5 /* daniel_5.json in Resources */,
+				660C350D27E7CCA80061F9C5 /* daniel_5_ashk.mp3 in Resources */,
+				660C34A827E7CC9B0061F9C5 /* daniel_12.json in Resources */,
+				660C352727E7CCA80061F9C5 /* daniel_9_seph.mp3 in Resources */,
+				660C352827E7CCA80061F9C5 /* nehemiah_7_ashk.mp3 in Resources */,
+				660C351427E7CCA80061F9C5 /* nehemiah_2_seph.mp3 in Resources */,
+				660C350927E7CCA80061F9C5 /* nehemiah_5_seph.mp3 in Resources */,
+				660C34A527E7CC9B0061F9C5 /* ezra_8.json in Resources */,
+				660C352F27E7CCA80061F9C5 /* ezra_3_seph.mp3 in Resources */,
+				660C353F27E7CCA80061F9C5 /* nehemiah_10_seph.mp3 in Resources */,
+				660C353927E7CCA80061F9C5 /* nehemiah_6_ashk.mp3 in Resources */,
+				660C354A27E7CCA80061F9C5 /* nehemiah_3_ashk.mp3 in Resources */,
+				660C353A27E7CCA80061F9C5 /* daniel_2_seph.mp3 in Resources */,
+				660C34BD27E7CC9C0061F9C5 /* nehemiah_8.json in Resources */,
+				660C352627E7CCA80061F9C5 /* daniel_8_ashk.mp3 in Resources */,
+				660C34A627E7CC9B0061F9C5 /* nehemiah_12.json in Resources */,
+				660C354227E7CCA80061F9C5 /* daniel_2_ashk.mp3 in Resources */,
+				660C354327E7CCA80061F9C5 /* daniel_12_seph.mp3 in Resources */,
+				660C34B027E7CC9B0061F9C5 /* nehemiah_13.json in Resources */,
+				660C34C027E7CC9C0061F9C5 /* daniel_2.json in Resources */,
+				660C34BA27E7CC9C0061F9C5 /* ezra_1.json in Resources */,
+				660C352A27E7CCA80061F9C5 /* daniel_1_ashk.mp3 in Resources */,
+				660C352D27E7CCA80061F9C5 /* ezra_9_seph.mp3 in Resources */,
+				660C352427E7CCA80061F9C5 /* nehemiah_9_ashk.mp3 in Resources */,
+				660C353527E7CCA80061F9C5 /* nehemiah_9_seph.mp3 in Resources */,
+				660C34BB27E7CC9C0061F9C5 /* ezra_2.json in Resources */,
+				660C34A927E7CC9B0061F9C5 /* ezra_9.json in Resources */,
+				660C351327E7CCA80061F9C5 /* daniel_3_ashk.mp3 in Resources */,
+				660C34B427E7CC9B0061F9C5 /* nehemiah_6.json in Resources */,
+				660C351727E7CCA80061F9C5 /* daniel_6_ashk.mp3 in Resources */,
+				660C34B527E7CC9B0061F9C5 /* nehemiah_7.json in Resources */,
+				660C354627E7CCA80061F9C5 /* nehemiah_3_seph.mp3 in Resources */,
+				660C351C27E7CCA80061F9C5 /* nehemiah_8_seph.mp3 in Resources */,
+				660C34B327E7CC9B0061F9C5 /* nehemiah_2.json in Resources */,
+				660C351D27E7CCA80061F9C5 /* nehemiah_13_ashk.mp3 in Resources */,
+				660C354727E7CCA80061F9C5 /* nehemiah_8_ashk.mp3 in Resources */,
+				660C351927E7CCA80061F9C5 /* nehemiah_6_seph.mp3 in Resources */,
+				660C353C27E7CCA80061F9C5 /* nehemiah_2_ashk.mp3 in Resources */,
+				660C34BF27E7CC9C0061F9C5 /* nehemiah_10.json in Resources */,
+				660C34A027E7CC9B0061F9C5 /* ezra_3.json in Resources */,
+				660C352327E7CCA80061F9C5 /* nehemiah_4_seph.mp3 in Resources */,
+				660C34BC27E7CC9C0061F9C5 /* daniel_7.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +952,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42KR8B64BB;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DanielEzraNehemiah/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -577,10 +964,11 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vayavinu.DanielEzraNehemiah;
 				PRODUCT_NAME = DanielEzraNehemiah;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -592,6 +980,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42KR8B64BB;
 				INFOPLIST_FILE = DanielEzraNehemiah/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -602,9 +991,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vayavinu.DanielEzraNehemiah;
 				PRODUCT_NAME = DanielEzraNehemiah;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
