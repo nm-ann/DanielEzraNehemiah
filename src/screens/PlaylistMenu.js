@@ -99,31 +99,25 @@ class PlaylistMenu extends React.Component {
             </Text>
           ) : (
             <FlatList
-              columnWrapperStyle={styles.buttonContainer}
               data={this.props.route.params.chapterList.chapters}
-              numColumns={this.state.numColumns}
               keyExtractor={(item, index) => index.toString()}
-              key={this.state.numColumns}
               renderItem={({item, index}) => {
                 return (
-                  <View style={{
-                      width: this.buttonWidth,
-                      padding: 5,
-                    }}
-                    key={index}>
+                  <View key={index}>
                     <FontAwesomeButton
                       onPress={() => {
                         if (!this.props.route.params.editMode) {
                           this.props.navigation.navigate('Chapter', {
-                            title: strings.chapter,
-                            chapters: this.props.route.params.chapterList
-                              .chapters,
-                            chapterNum: item,
-                            titleNum: item,
+                            title: item.title,
+                            chapters:
+                              this.props.route.params.chapterList.chapters,
+                            collection: item.collection,
+                            chapterNum: item.chapterNum,
+                            titleNum: item.chapterNum,
                           });
                         }
                       }}
-                      text={item.toString()}
+                      text={item.title}
                       buttonStyle={styles.buttonContentTitle}
                       textStyle={styles.buttonText}
                     />
