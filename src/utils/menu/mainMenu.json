@@ -1,28 +1,27 @@
 [
        {
-       "title": "daniel", 
-       "iconName": "candle", 
-       "nextScreen": "ChapterMenu"
+              "title": "daniel",
+              "iconName": "cog",
+              "nextScreen": "ChapterMenu"
        },
        {
-       "title": "ezra",
-       "iconName": "weather-sunset-up",
-       "nextScreen": "ChapterMenu"
+              "title": "ezra",
+              "iconName": "cog",
+              "nextScreen": "ChapterMenu"
        },
        {
-       "title": "nehemiah",
-       "iconName": "campfire",
-       "nextScreen": "ChapterMenu"
+              "title": "nehemiah",
+              "iconName": "cog",
+              "nextScreen": "ChapterMenu"
        },
        {
-"title": "playlist", 
-"iconName": "playlist-music", 
-"nextScreen": "SectionMenu"
+              "title": "playlist",
+              "iconName": "cog",
+              "nextScreen": "SectionMenu"
        },
        {
-       "title": "settings",
-       "iconName": "cog", 
-"nextScreen": "SettingsMenu"
+              "title": "settings",
+              "iconName": "cog",
+              "nextScreen": "SettingsMenu"
        }
 ]
-

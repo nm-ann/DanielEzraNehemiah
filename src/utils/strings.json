@@ -1,11 +1,14 @@
 {
-    "appName": "App",
+    "appName": "דניאל עזרא ונחמיה",
     "chapter": "Chapter",
     "addToPlaylist": "Add To Playlist",
     "settings": "Settings",
     "settingsTitle": "Settings",
     "playlist": "Playlists",
     "audioPrefix": "audio",
-    "audioSuffix1": "1",
-    "audioSuffix2": "2"
+    "audioSuffix1": "ashk",
+    "audioSuffix2": "seph",
+    "daniel": "Daniel",
+    "ezra": "Ezra",
+    "nehemiah": "Nehemiah"
 }

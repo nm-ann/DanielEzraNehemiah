@@ -51,7 +51,7 @@ class ChapterMenu extends React.Component {
                         chapterNum: item.chapterNum,
                       });
                     }}
-                    text={item.title}
+                    text={item.title.split(' ')[1]}
                     buttonStyle={styles.buttonContentChapter}
                     textStyle={styles.buttonText}
                   />
